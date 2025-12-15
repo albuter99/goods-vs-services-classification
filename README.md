@@ -2,21 +2,6 @@
 
 This repository contains the MSc Business Data Science (AAU) 1st-semester project on automatically classifying short business-related texts as **goods** or **services**, and predicting **macro-categories**. The project compares lexical baselines (TF-IDF) with sentence embedding approaches (SBERT and SetFit) and emphasizes **external validation** using an EUIPO-like dataset.
 
-## Project structure
-
-Recommended folder layout:
-
-- `data/`
-  - `raw/`
-  - `processed/` 
-- `notebooks/` (exploration and experiments)
-- `src/` (reusable code: preprocessing, training, evaluation)
-- `models/` (saved models and metadata)
-- `app/` (Streamlit prototype)
-- `figures/` (plots used in the report)
-- `reports/`
-- `environment.yml` (or `pyproject.toml`)
-
 ## Data
 
 The main dataset is constructed by integrating multiple public sources (e-commerce product texts and service reviews) and harmonizing them into a common schema with:
@@ -75,3 +60,32 @@ Run the notebooks in the following order:
 
 ```bash
 streamlit run 03_main.py
+
+
+## Ethics and governance
+
+No personal data is intentionally collected.
+All data sources are public datasets.
+Only data strictly necessary for reproducibility is stored in the repository.
+When redistribution is not possible, the repository provides code to reconstruct the pipeline.
+
+## Authors
+
+Alvaro Buendía
+Ioannis Chatzikos
+
+## Supervisor
+
+Milad Abbasiharofteh
+Aalborg University Business School
+
+
+
+
+
+
+
+
+
+
+
