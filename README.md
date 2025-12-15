@@ -14,7 +14,62 @@ The main dataset is constructed by integrating multiple public sources (e-commer
 
 > Note: If full datasets cannot be shared, this repository provides scripts to rebuild the final dataset structure or to reproduce the experiments using an anonymized sample.
 
-## Methods (high level)
+## Data sources and provenance
+
+All datasets used in this project are publicly available and were obtained from open data repositories. Each dataset was selected to represent either goods-oriented or service-oriented textual descriptions.
+
+### Goods-oriented datasets
+
+**Amazon Sales Dataset**  
+Product names and short product descriptions from an e-commerce context, used to represent physical goods.  
+Source:  
+https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
+
+**E-commerce Text Classification Dataset**  
+Short product descriptions labeled by category, used to enrich the goods class with concise and structured product texts.  
+Source:  
+https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification
+
+---
+
+### Service-oriented datasets
+
+**Airline Reviews Dataset**  
+Customer reviews describing air travel services, including aspects such as flight experience, staff interaction, and punctuality.  
+Source:  
+https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
+
+**Hotel Reviews Dataset**  
+User-generated reviews of hotel services, focusing on accommodation quality, amenities, and customer experience.  
+Source:  
+https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
+
+**Restaurant Reviews Dataset**  
+Textual reviews describing dining services, food quality, and overall customer satisfaction.  
+Source:  
+https://www.kaggle.com/datasets/uciml/restaurant-data-with-consumer-ratings
+
+---
+
+### External validation dataset
+
+**EUIPO-like trademark descriptions (hand-labeled)**  
+A small external validation dataset inspired by EUIPO trademark descriptions of goods and services.  
+This dataset was manually curated for evaluation purposes and is used exclusively for out-of-domain validation.  
+Source inspiration:  
+https://www.euipo.europa.eu/en/trade-marks
+
+---
+
+### Notes on data usage
+
+- No personal data is intentionally collected or processed.
+- All datasets are used strictly for academic research purposes.
+- When redistribution of full datasets is not permitted, this repository provides code and documentation to reconstruct the data processing pipeline.
+- Only derived and processed data strictly necessary for reproducibility are stored in the repository.
+
+
+## Methods
 
 1. **Preprocessing**
    - build a unified text field from `name`, `about_product`, and `review`
