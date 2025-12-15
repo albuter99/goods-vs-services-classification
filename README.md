@@ -59,7 +59,7 @@ Run the notebooks in the following order:
 ## Run the Streamlit app
 
 ```bash
-streamlit run 03_main.py```
+streamlit run 03_main.py ```
 
 
 ## Ethics and governance
