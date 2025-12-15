@@ -62,3 +62,16 @@ External validation (EUIPO-like):
 | SetFit style (SBERT + LogReg) | 0.526316 | 0.424242 | 0.411483 |
 | SetFit (real, Trainer, few-shot) | 0.789474 | 0.784091 | 0.782297 |
 
+## Run the experiments
+
+The data processing and model training pipeline is implemented using Jupyter notebooks.
+
+Run the notebooks in the following order:
+
+1. `01_build_dataset.ipynb`
+2. `02_goods_services_classification_pipeline.ipynb`
+
+## Run the Streamlit app
+
+```bash
+streamlit run 03_main.py
