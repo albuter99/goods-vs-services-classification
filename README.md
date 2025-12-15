@@ -36,18 +36,19 @@ https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification
 
 **Airline Reviews Dataset**  
 Customer reviews describing air travel services, including aspects such as flight experience, staff interaction, and punctuality.  
-Source:  
-https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
+Source:
+https://www.kaggle.com/datasets/juhibhojani/airline-reviews
+
 
 **Hotel Reviews Dataset**  
 User-generated reviews of hotel services, focusing on accommodation quality, amenities, and customer experience.  
 Source:  
-https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
+https://www.kaggle.com/datasets/anu0012/hotel-review
 
 **Restaurant Reviews Dataset**  
 Textual reviews describing dining services, food quality, and overall customer satisfaction.  
 Source:  
-https://www.kaggle.com/datasets/uciml/restaurant-data-with-consumer-ratings
+https://www.kaggle.com/datasets/joebeachcapital/restaurant-reviews
 
 ---
 
